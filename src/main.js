@@ -16,7 +16,10 @@ import { ProgressStore } from './storage/ProgressStore.js';
 import { createGameLayer } from './game/index.js';
 import { ThemeManager } from './ui/ThemeManager.js';
 import { AppUI } from './ui/AppUI.js';
-
+//----------------------------------------------------------------- DOM
+try {
+  localStorage.removeItem('ar-crypto-progress-v1');
+} catch {}
 // ---------------------------------------------------------------- DOM
 const stage = document.getElementById('stage');
 const video = document.getElementById('video');
