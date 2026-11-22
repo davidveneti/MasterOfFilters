@@ -1,4 +1,4 @@
-# AR Crypto Lab · Hookah AR Filter – Crypto Edition
+# Master of Filters
 
 Piattaforma AR **100% nel browser** (MediaPipe FaceMesh + Three.js, nessun backend, nessuna API key)
 che trasforma i filtri in **missioni di crittografia classica** per ragazzi di 12-14 anni:
